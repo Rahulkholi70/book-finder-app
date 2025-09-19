@@ -38,7 +38,7 @@ function Home() {
       <p className="text-center text-xl font-light mb-4">
         Search for books by title
       </p>
-      {/* <searchBar onSearch={handleSearch} /> */}
+      {/* <SearchBar onSearch={handleSearch} /> */}
       <SearchBar onSearch={handleSearch} />
       {loading && <p className="text-center">Loading...</p>}
       {error && <p className="text-center text-red-500">{error}</p>}
