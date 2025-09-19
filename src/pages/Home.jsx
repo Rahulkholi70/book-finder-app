@@ -1,6 +1,6 @@
 import { useState } from "react";
 import BookCard from "../components/BookCard";
-import SearchBar from "../components/searchBar";
+import SearchBar from "../components/SearchBar";
 
 function Home() {
   const [books, setBooks] = useState([]);
